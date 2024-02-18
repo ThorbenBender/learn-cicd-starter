@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  tests:
+  test:
     name: Tests
     runs-on: ubuntu-latest
     steps:
